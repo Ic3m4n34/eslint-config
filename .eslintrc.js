@@ -9,27 +9,27 @@ module.exports = {
     'import/extensions': ['error', 'always', {
       js: 'never',
     }],
-    'no-console': 0,
     'import/order': [
       'warn',
       {
+        alphabetize: {
+          caseInsensitive: true,
+          order: 'ignore',
+        },
         groups: ['builtin', 'external', 'parent', 'sibling', 'index'],
         'newlines-between': 'always',
-        alphabetize: {
-          order: 'ignore',
-          caseInsensitive: true,
-        },
       },
     ],
+    'no-console': 0,
     'sort/object-properties': 0,
     'sort-imports': [
       'warn',
       {
+        allowSeparatedGroups: true,
         ignoreCase: true,
         ignoreDeclarationSort: true,
         ignoreMemberSort: false,
         memberSyntaxSortOrder: ['all', 'multiple', 'single', 'none'],
-        allowSeparatedGroups: true,
       },
     ],
     'sort-keys-fix/sort-keys-fix': [1, 'asc', {
