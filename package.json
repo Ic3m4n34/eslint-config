@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "https://github.com/Ic3m4n34/eslint-config",
   "author": "Nico Meyer",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0"
+  }
 }
