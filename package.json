@@ -1,6 +1,6 @@
 {
   "name": "@ic3m4n/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My standard JavaScript eslint config",
   "main": "index.js",
   "repository": "https://github.com/Ic3m4n34/eslint-config",
